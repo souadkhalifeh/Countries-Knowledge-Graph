@@ -5,10 +5,11 @@ This project creates a knowledge graph using country-related data, specifically 
 ## Dataset 
 The project uses a country dataset from Kaggle: https://www.kaggle.com/datasets/mexwell/countries-states-and-cities-around-the-world?utm_source=chatgpt.com
 - Used only the countries.csv file
-
-## Features
 - Extracted only the name, capital, and region
 - Samples 10 random countries
+  
+
+## Features
 - Extracts and builds relationships as knowledge triples:
   **Country → has_capital → Capital**
   **Country → in_region → Region**
